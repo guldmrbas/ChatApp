@@ -6,16 +6,40 @@
 //
 
 import UIKit
+import FirebaseAuth
+import FirebaseCore
 
 class RegisterViewController: UIViewController {
 
+    // MARK - PROPERTİES
+    @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var sifreTextField: UITextField!
+    
+    
+    
+    //MARK-FUNCTİONS
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    
+    
+    @IBAction func registerButtonClicked(_ sender: UIButton) {
+        Auth.auth().createUser(withEmail: emailTextField.text!, password: sifreTextField.text!) { user, error in
+            if(error == nil){
+                debugPrint("registration successfull")
+                let vc = self.storyboard?.instantiateViewController(identifier: "ChatStoryboardId") as! ChatViewController
+                self.navigationController?.pushViewController(vc, animated: true)
+            }else{
+                debugPrint(error)
+            }
+        }
+        
+    }
+    
+    
     /*
     // MARK: - Navigation
 
