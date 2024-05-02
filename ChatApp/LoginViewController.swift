@@ -21,9 +21,15 @@ class LoginViewController: UIViewController {
     //MARK - FUNCTİONS
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        initViews()
 
         // Do any additional setup after loading the view.
     }
+    private func initViews(){
+        self.navigationController?.navigationBar.isHidden = true
+    }
+    
     
     private func showAlert(_ msg : String){
         let alertController = UIAlertController(title: "Error", message: msg, preferredStyle: .alert)

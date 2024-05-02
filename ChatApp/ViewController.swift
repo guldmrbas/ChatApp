@@ -18,8 +18,10 @@ class ViewController: UIViewController {
     // MARK = -FUNCTİONS
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        
     }
+    
 
     
     @IBAction func btnClickedLogIn(_ sender: UIButton) {

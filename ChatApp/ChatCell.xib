@@ -37,17 +37,23 @@
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="cG9-Vo-psX" firstAttribute="top" secondItem="Fi3-VR-4ef" secondAttribute="bottom" constant="16" id="24j-Xl-fCl"/>
+                <constraint firstItem="cG9-Vo-psX" firstAttribute="top" secondItem="Fi3-VR-4ef" secondAttribute="bottom" constant="8" id="24j-Xl-fCl"/>
                 <constraint firstItem="odV-Fp-HEx" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="33I-po-LfF"/>
                 <constraint firstItem="cG9-Vo-psX" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" constant="8" id="9gh-X1-qxv"/>
                 <constraint firstAttribute="trailing" secondItem="Fi3-VR-4ef" secondAttribute="trailing" constant="8" id="Gqt-gE-bSL"/>
                 <constraint firstItem="Fi3-VR-4ef" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="LS9-9d-foy"/>
                 <constraint firstAttribute="trailing" secondItem="cG9-Vo-psX" secondAttribute="trailing" constant="8" id="LeU-CF-T2S"/>
                 <constraint firstItem="Fi3-VR-4ef" firstAttribute="leading" secondItem="odV-Fp-HEx" secondAttribute="trailing" constant="8" id="Pbc-Ab-v1Q"/>
+                <constraint firstItem="cG9-Vo-psX" firstAttribute="top" secondItem="Fi3-VR-4ef" secondAttribute="bottom" constant="16" id="URC-f9-IP6"/>
                 <constraint firstItem="odV-Fp-HEx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="VpN-8A-oA4"/>
                 <constraint firstItem="cG9-Vo-psX" firstAttribute="leading" secondItem="odV-Fp-HEx" secondAttribute="trailing" constant="16" id="zHS-ch-5P5"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="messageLbl" destination="cG9-Vo-psX" id="Ucu-Fe-xOn"/>
+                <outlet property="userIV" destination="odV-Fp-HEx" id="Dlo-44-ib7"/>
+                <outlet property="usernameLbl" destination="Fi3-VR-4ef" id="IZ3-6b-hgs"/>
+            </connections>
             <point key="canvasLocation" x="116.03053435114504" y="19.718309859154932"/>
         </view>
     </objects>

@@ -3,28 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyAepkiIhISz-9r-R-Ly7XMxgG-MoyNC7QQ</string>
+	<string>AIzaSyB0TZbQjwDt6lVv7wJBWkHUULY2QM9VraE</string>
 	<key>GCM_SENDER_ID</key>
-	<string>358516353338</string>
+	<string>991669186102</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.gulsumdemirbas.FotografPaylasmaUygulamasi</string>
+	<string>com.gulsumdemirbas.ChatApp</string>
 	<key>PROJECT_ID</key>
-	<string>fotografpaylasmauygulama-5efce</string>
+	<string>chatapp-e6e4c</string>
 	<key>STORAGE_BUCKET</key>
-	<string>fotografpaylasmauygulama-5efce.appspot.com</string>
+	<string>chatapp-e6e4c.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<true/>
+	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<true/>
+	<false></false>
 	<key>IS_APPINVITE_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>IS_GCM_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true/>
+	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:358516353338:ios:38c8afa537eb52019a4803</string>
+	<string>1:991669186102:ios:7dd21ac7d5b0fe98dbb297</string>
+	<key>DATABASE_URL</key>
+	<string>https://chatapp-e6e4c-default-rtdb.firebaseio.com</string>
 </dict>
 </plist>
